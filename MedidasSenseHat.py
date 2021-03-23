@@ -7,6 +7,5 @@ def medida():
     temp = sense.temp
     presion = sense.pressure
     humedad = sense.humidity
-    medidas = [humedad, temp, presion] 
+    medidas = [humedad, temp, presion]
     return medidas
-
